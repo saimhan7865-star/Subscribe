@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WebSDevelop</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#0f172a,#1e3a8a);
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.box{
+    background:white;
+    padding:40px;
+    border-radius:15px;
+    text-align:center;
+    width:420px;
+    box-shadow:0 15px 40px rgba(0,0,0,.3);
+}
+
+h1{
+    color:#2563eb;
+    margin-bottom:15px;
+}
+
+p{
+    color:#555;
+    margin-bottom:25px;
+    font-size:18px;
+}
+
+button{
+    background:#ff0000;
+    color:white;
+    border:none;
+    padding:15px 35px;
+    font-size:18px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:#cc0000;
+    transform:scale(1.05);
+}
+</style>
+
+</head>
+<body>
+
+<div class="box">
+    <h1>🚀 Welcome to WebSDevelop</h1>
+    <p>Subscribe My Channel For Amazing Website Tutorials!</p>
+
+    <button onclick="subscribe()">
+        🔔 Subscribe Now
+    </button>
+</div>
+
+<script>
+function subscribe(){
+    alert("Thank You ❤️\nPlease Subscribe to WebSDevelop!");
+}
+</script>
+
+</body>
+</html>
